@@ -60,3 +60,12 @@ switcheroo.if.then(x="b")
 switcheroo.if.then(x="c")
 switcheroo.if.then(x)
 
+q<-("two",c(1:4),8,c(6,7,8,9))
+
+y<-array(1:24,dim=c(4,3,2))
+z<-matrix(11:20,nrow=5,ncol=2)
+# a matrix has one box (dimension) of data while array has n-dimension of data.
+
+z[4,1]
+y[2,2,2]
+
