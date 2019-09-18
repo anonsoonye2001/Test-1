@@ -45,3 +45,18 @@ length(w)
 length(w)<- 7
 w  # will return NA on the positions where values were not assigned
 
+switcheroo.if.then<-function(x){
+  if(x=="a")
+    "antelope"
+  else if(x=="b")
+    "bear"
+  else if(x=="c")
+    "cat"
+  else
+    "dog"
+}
+switcheroo.if.then(x="a")
+switcheroo.if.then(x="b")
+switcheroo.if.then(x="c")
+switcheroo.if.then(x)
+
