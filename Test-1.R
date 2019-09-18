@@ -6,7 +6,7 @@ a
 a[c(1,7)] #indexing 1 and 7 value
 a[c(1,7)]<-assign(a(c[]))
 
-
+edit
 
 a<-2
 b<-4
