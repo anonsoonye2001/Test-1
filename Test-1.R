@@ -1,6 +1,3 @@
-load(file="test1_data.Rdata")
-str(d)
-
 a<-c(5:14)
 a
 a[c(1,7)] #indexing 1st and 7th value
@@ -89,3 +86,7 @@ d$haul<-as.integer(d$haul)  # to set as integer
 str(d)
 d$sw.density<-NULL   # to remove "sw.density"column from the data.
 str(d)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5880dac6ff724ee1fc6a510eae227240041f6388
