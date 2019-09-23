@@ -61,7 +61,16 @@ switcheroo.if.then(x="b")
 switcheroo.if.then(x="c")
 switcheroo.if.then(x)
 
-l<-list(x="two",y=c(1:4),z=8,w=c(a,b,d,e))
+x<-"cow" # set as character
+typeof(x)
+y<-c(1:5) # set as integer
+typeof(y)
+z<-12
+typeof(z)
+class(z)
+q<-c("a","b","c","b","d")
+sf<-factor(q) # q is set as factor with 4 levels 
+sf
 
 y<-array(1:24,dim=c(4,3,2))
 y
@@ -86,7 +95,4 @@ d$haul<-as.integer(d$haul)  # to set as integer
 str(d)
 d$sw.density<-NULL   # to remove "sw.density"column from the data.
 str(d)
-<<<<<<< HEAD
-=======
 
->>>>>>> 5880dac6ff724ee1fc6a510eae227240041f6388
